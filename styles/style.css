@@ -44,8 +44,58 @@ ul li a{
     text-decoration: none;
     color: var(--primaryColor);
 }
+/* Header End */
 
+/* ---------------------------------
+        MAIN SECTION STARTED
+   ---------------------------------*/ 
 
+/* Section 01 */
+.section-1{
+    padding: 25px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section1-heading{
+    font-size: 4vw;
+    font-weight: bolder;
+}
+.section1-description{
+    padding-right: 50px;
+    color: var(--primaryColor);
+    font-size: 1.2rem;
+    margin-top: 10px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.section1-btn button{
+    margin-top: 20px;
+    padding: 10px;
+    width: 12rem;
+    background-color: var(--btnBg);
+    color: var(--secondaryColor);
+    font-size: 1vw;
+    font-weight: bold;
+    border: hidden;
+    border-radius: 40px;
+
+}
+
+.section1-img img {
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+}
+
+.section1-right{
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+/* Section 02:: */
 
 
 
@@ -76,6 +126,34 @@ RESPONSIVE DESIGN FOR DESKTOP, LAPTOP & MOBILE DEVICES
         font-size: 2.5vw;
     }
     /* Header styling End */
+
+      /* Section 01 start */
+      .section-1{
+        padding: 25px 20px;
+        flex-direction: column-reverse;
+    }
+    .section1-img img{
+        height: 100%;
+        padding: 15px;
+    }
+    .section1-heading{
+        text-align: center;
+        margin-top: 15px;
+        font-size: 3vw;
+    }
+    .section1-description{
+        margin-left: 5em;
+        text-align: center;
+        font-size: 2.3vw;
+    }
+    .section1-btn{
+        text-align: center;
+    }
+    .section1-btn button{
+        font-size: 1.7vw;
+    }
+    
+
 }
 
 
@@ -100,4 +178,32 @@ RESPONSIVE DESIGN FOR DESKTOP, LAPTOP & MOBILE DEVICES
         font-size: 4.5vw;
     }
     /* Header End */
+
+    /* Section 01 start */
+    .section-1{
+        padding: 25px 20px;
+        flex-direction: column-reverse;
+    }
+    .section1-img img{
+        height: 100%;
+        width: 100%;
+        padding: 15px;
+    }
+    .section1-heading{
+        text-align: center;
+        margin-top: 15px;
+        font-size: 5vw;
+    }
+    .section1-description{
+        margin-left: 5em;
+        text-align: center;
+        font-size: 3.3vw;
+    }
+    .section1-btn{
+        text-align: center;
+    }
+    .section1-btn button{
+        font-size: 2.5vw;
+    }
+
 }
