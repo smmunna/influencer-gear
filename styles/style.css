@@ -96,7 +96,18 @@ ul li a{
 }
 
 /* Section 02:: */
-
+.section-2{
+    margin: 30px 130px;
+    padding: 50px;
+    padding-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border: 1px solid rgb(234, 229, 229);
+    box-shadow: 3px 5px 5px rgb(205, 202, 202) ;
+}
 
 
 
@@ -153,7 +164,13 @@ RESPONSIVE DESIGN FOR DESKTOP, LAPTOP & MOBILE DEVICES
         font-size: 1.7vw;
     }
     
-
+      /* Section 02 */
+      .section-2{
+        padding: 30px 5px;
+        text-align: center;
+        gap: 40px;
+        grid-template-columns: repeat(3,1fr);
+    }
 }
 
 
@@ -206,4 +223,12 @@ RESPONSIVE DESIGN FOR DESKTOP, LAPTOP & MOBILE DEVICES
         font-size: 2.5vw;
     }
 
+    /* Section 02 */
+    .section-2{
+        margin: 5% 2%;
+        padding: 50px;
+        gap: 40px;
+        grid-template-columns: repeat(2,1fr);
+
+    }
 }
