@@ -7,6 +7,8 @@
     --btnBg:#E02C6D;
 }
 body{
+    padding: 0;
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -179,7 +181,25 @@ ul li a{
     line-height: 1.5;
 }
 
+/* Footer */
+footer{
+    text-align: center;
+    padding: 50px 0px;
+    line-height: 2;
+    color: var(--secondaryColor);
+    background-color: black;
+}
+.footer-social{
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-munna a{
+    text-decoration: none;
+    color: red;
 
+}
 /* ---------------------------------------------------
 RESPONSIVE DESIGN FOR DESKTOP, LAPTOP & MOBILE DEVICES
 ------------------------------------------------------*/
@@ -263,6 +283,8 @@ RESPONSIVE DESIGN FOR DESKTOP, LAPTOP & MOBILE DEVICES
         font-size: 1.8vw;
     }
 
+    /* Footer */
+  
 }
 
 
@@ -359,4 +381,23 @@ RESPONSIVE DESIGN FOR DESKTOP, LAPTOP & MOBILE DEVICES
     .left-section4 img{
         width: 100%;
     }
+
+
+    /* Footer */
+footer{
+    padding: 40px 0px;
+    margin-right: -10px;
+    background-color: black;
+}
+.footer-social{
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-munna a{
+    text-decoration: none;
+    color: red;
+
+}
 }
