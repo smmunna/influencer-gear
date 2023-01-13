@@ -1,0 +1,103 @@
+/* Important for styles:: */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+:root{
+    --primaryColor:#3A3A3A;
+    --secondaryColor:white;
+    --thirdColor:#787885;
+    --btnBg:#E02C6D;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styling start from Header */
+
+/* Header Section */
+.toogle-menu{
+    display: none;
+}
+.header-section{
+    padding: 25px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-heading{
+    letter-spacing: 2px;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--primaryColor);
+}
+
+
+
+
+
+
+
+/* ---------------------------------------------------
+RESPONSIVE DESIGN FOR DESKTOP, LAPTOP & MOBILE DEVICES
+------------------------------------------------------*/
+
+/* For tablet and Landscape Mode devices */
+@media only screen and (min-width:577px) and (max-width:992px) {
+    /* Header Start styling */
+    .header-section{
+        padding: 5px 35px;
+    }
+    .toogle-menu{
+        display: block;
+    }
+    ul li{
+        display: none;
+    }
+    ul li:last-child{
+        display: block;
+    }
+    .header-heading{
+        letter-spacing: 0px;
+        margin-left: 12%;
+        font-size: 2.5vw;
+    }
+    /* Header styling End */
+}
+
+
+/* For Mobile  devices */
+@media only screen and (max-width:576px) {
+    /* Header Styling */
+    .header-section{
+        padding: 5px 15px;
+    }
+    .toogle-menu{
+        display: block;
+    }
+    ul li{
+        display: none;
+    }
+    ul li:last-child{
+        display: block;
+    }
+    .header-heading{
+        letter-spacing: 0px;
+        margin-left: 12%;
+        font-size: 4.5vw;
+    }
+    /* Header End */
+}
