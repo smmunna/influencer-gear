@@ -109,7 +109,75 @@ ul li a{
     box-shadow: 3px 5px 5px rgb(205, 202, 202) ;
 }
 
+/* Section 03 */
+.pp-collection{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
 
+.section-3{
+    padding: 20px 200px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.popular-collection{
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgb(225, 222, 222);
+}
+.popular-heading{
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 1.5vw;
+}
+.popular-price{
+    font-size: 1.1vw;
+}
+.rate2{
+    display: flex;
+    justify-content:flex-start;
+
+}
+.rating{
+    color: rgb(255, 142, 4);
+}
+.popular-image img{
+    width: 100%;
+}
+.light-set{
+    height: 270px;
+}
+
+.next-page{
+    padding: 20px 200px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bolder;
+    color: var(--btnBg);
+}
+
+/* Section 04: */
+.section-4{
+    padding: 20px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.section4-heading{
+    font-size: 2.5vw;
+    font-weight: bolder;
+}
+.section4-description{
+    margin-top: 12px;
+    font-size: 1.1vw;
+    line-height: 1.5;
+}
 
 
 /* ---------------------------------------------------
@@ -171,6 +239,30 @@ RESPONSIVE DESIGN FOR DESKTOP, LAPTOP & MOBILE DEVICES
         gap: 40px;
         grid-template-columns: repeat(3,1fr);
     }
+
+    /* Section 03 */
+    .pp-collection{
+        font-size: 3vw;
+    }
+    .section-3{
+        padding: 20px 50px;
+    }
+    .light-set{
+        height: 18.4vw;
+    }
+    .popular-heading{
+        font-size: 2.5vw;
+    }
+    .popular-price{
+        font-size: 2vw;
+    }
+    .next-page{
+        padding: 20px 50px;
+    }
+    .section4-description{
+        font-size: 1.8vw;
+    }
+
 }
 
 
@@ -230,5 +322,41 @@ RESPONSIVE DESIGN FOR DESKTOP, LAPTOP & MOBILE DEVICES
         gap: 40px;
         grid-template-columns: repeat(2,1fr);
 
+    }
+
+    /* section 03s */
+    .pp-collection{
+        margin-top: 50px;
+        font-size: 5vw;
+    }
+    .section-3{
+        padding: 20px 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .popular-heading{
+        font-size: 5vw;
+    }
+    .popular-price{
+        font-size: 4.1vw;
+    }
+    .next-page{
+        padding: 20px 20px;
+    }
+
+    /* Section 04 */
+    .section-4{
+        padding: 8px 15px;
+        flex-direction: column-reverse;
+    }
+    .section4-heading{
+        text-align: center;
+        font-size: 5vw;
+    }
+    .section4-description{
+        text-align: center;
+        font-size: 3vw;
+    }
+    .left-section4 img{
+        width: 100%;
     }
 }
