@@ -362,8 +362,8 @@ RESPONSIVE DESIGN FOR DESKTOP, LAPTOP & MOBILE DEVICES
 
     .section1-img img {
         height: 100%;
-        width: 100%;
-        padding: 15px;
+        width: 75%;
+        padding: 30px;
     }
 
     .section1-heading {
@@ -442,7 +442,7 @@ RESPONSIVE DESIGN FOR DESKTOP, LAPTOP & MOBILE DEVICES
     /* Footer */
     footer {
         padding: 40px 0px;
-        margin-right: -10px;
+        /* margin-right: -10px; */
         background-color: black;
         
     }
